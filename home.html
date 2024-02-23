@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Kuba - Simplifying Bus Travel</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 ">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="home.html" class="flex items-center">
+                    <img src="image/logo.png" class="mr-3 h-6 sm:h-9" alt="Kuba Logo" />
+                    <span class="self-center text-xl font-semibold whitespace-nowrap ">Kuba</span>
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <a href="#"
+                        class="text-gray-800 hidden lg:flex   hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none">Log
+                        in</a>
+                    <a href="#"
+                        class="text-white hidden lg:flex bg-primary hover:bg-primary focus:ring-4 focus:ring-primary font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none">Get
+                        started</a>
+                    <button data-collapse-toggle="mobile-menu-2" type="button"
+                        class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+                        aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 rounded bg-primary lg:bg-transparent lg:text-primary lg:p-0 "
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Service</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- hearo Section -->
+    <section class="bg-white">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                    Book Your <span class="text-primary">Bus Seat</span> Anytime, Anywhere</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">Tired of long queues
+                    and last-minute hassles when booking your bus seat? Say goodbye to inconvenience with our
+                    intuitiveBus Seat Reservations System. Now, you can book your seat from the comfort of your home or
+                    on the go, hassle-free!</p>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-secondary focus:ring-4">
+                    Get started
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    Speak to Sales
+                </a>
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="image/9844313.jpg" alt="mockup">
+            </div>
+        </div>
+    </section>
+
+    <!-- why choose us -->
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="max-w-screen-md mb-8 lg:mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                    Why Choose Bus Seat Reservations System?</h2>
+                <p class="text-gray-500 sm:text-xl dark:text-gray-400">Your Ticket to Effortless and Secure Bus Travel,
+                    Explore the Exceptional Features of Bus Seat Reservations System</p>
+            </div>
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div>
+                    <div
+                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                        <svg class="w-5 h-5 text-primary lg:w-6 lg:h-6" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm11-4a1 1 0 1 0-2 0v4c0 .3.1.5.3.7l3 3a1 1 0 0 0 1.4-1.4L13 11.6V8Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Convenience</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Book your bus seat online with just a few clicks. No
+                        more waiting in long lines or rushing to the bus station.</p>
+                </div>
+                <div>
+                    <div
+                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary lg:w-6 lg:h-6" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M4.9 3C3.9 3 3 3.8 3 4.9V9c0 1 .8 1.9 1.9 1.9H9c1 0 1.9-.8 1.9-1.9V5c0-1-.8-1.9-1.9-1.9H5Zm10 0c-1 0-1.9.8-1.9 1.9V9c0 1 .8 1.9 1.9 1.9H19c1 0 1.9-.8 1.9-1.9V5c0-1-.8-1.9-1.9-1.9h-4Zm-10 10c-1 0-1.9.8-1.9 1.9V19c0 1 .8 1.9 1.9 1.9H9c1 0 1.9-.8 1.9-1.9v-4c0-1-.8-1.9-1.9-1.9H5ZM18 14a1 1 0 1 0-2 0v2h-2a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2v-2Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Choice</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Browse through a wide selection of buses and agencies,
+                        and choose the one that best fits your travel needs and preferences.</p>
+                </div>
+                <div>
+                    <div
+                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary lg:w-6 lg:h-6" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M11.6 3h.8l7 2.7c.3.2.6.6.6 1a17.7 17.7 0 0 1-7.4 14.1 1 1 0 0 1-1.2 0A17.4 17.4 0 0 1 4 6.7c0-.4.3-.8.6-1l7-2.6Zm4 7.3a1 1 0 0 0-1.3-1.6l-3.3 3-.8-1a1 1 0 0 0-1.4 1.5l1.5 1.5c.4.4 1 .4 1.4 0l4-3.4Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Security</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Your privacy and security are our top priorities. Our
+                        platform utilizes state-of-the-art security measures to safeguard your personal information and
+                        payment details.</p>
+                </div>
+                <div>
+                    <div
+                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary lg:w-6 lg:h-6" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12 2a3 3 0 0 0-2.1.9l-.9.9a1 1 0 0 1-.7.3H7a3 3 0 0 0-3 3v1.2c0 .3 0 .5-.2.7l-1 .9a3 3 0 0 0 0 4.2l1 .9c.2.2.3.4.3.7V17a3 3 0 0 0 3 3h1.2c.3 0 .5 0 .7.2l.9 1a3 3 0 0 0 4.2 0l.9-1c.2-.2.4-.3.7-.3H17a3 3 0 0 0 3-3v-1.2c0-.3 0-.5.2-.7l1-.9a3 3 0 0 0 0-4.2l-1-.9a1 1 0 0 1-.3-.7V7a3 3 0 0 0-3-3h-1.2a1 1 0 0 1-.7-.2l-.9-1A3 3 0 0 0 12 2Zm3.7 7.7a1 1 0 1 0-1.4-1.4L10 12.6l-1.3-1.3a1 1 0 0 0-1.4 1.4l2 2c.4.4 1 .4 1.4 0l5-5Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Reliability</h3>
+                    <p class="text-gray-500 dark:text-gray-400"> With real-time updates and notifications, you can rest
+                        assured that your seat reservation is confirmed and ready for your journey.</p>
+                </div>
+                <div>
+                    <div
+                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary lg:w-6 lg:h-6" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.7 7.7A7.1 7.1 0 0 0 5 10.8M18 4v4h-4m-7.7 8.3A7.1 7.1 0 0 0 19 13.2M6 20v-4h4" />
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Flexibility</h3>
+                    <p class="text-gray-500 dark:text-gray-400"> Modify or cancel your seat reservation with ease,
+                        giving you the flexibility to adapt to changing travel plans.</p>
+                </div>
+                <div>
+                    <div
+                        class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary lg:w-6 lg:h-6" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12 2a7 7 0 0 0-7 7 3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1c.6 0 1-.4 1-1V9a5 5 0 1 1 10 0v7a3 3 0 0 1-3 3 2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v1c0 1.1.9 2 2 2h1a2 2 0 0 0 1.7-1h.4a5 5 0 0 0 4.8-4h.1a3 3 0 0 0 3-3v-2a3 3 0 0 0-3-3 7 7 0 0 0-7-7Zm1.5 3.3a4 4 0 0 0-4.4 1 1 1 0 0 0 1.4 1.3 2 2 0 0 1 2.9 0A1 1 0 1 0 14.8 6a4 4 0 0 0-1.3-.8Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Customer Support</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Our dedicated customer support team is available around
+                        the clock to assist you with any inquiries or issues you may encounter.</p>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- how it works -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="gap-8 items-center px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden"
+                src="image/search.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="image/search.svg"
+                alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">1. Search</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Utilize our user-friendly interface to input your destination, preferred travel date, and specific preferences.Our advanced search algorithm will then comb through our extensive database to find available buses and agencies that match your criteria, ensuring you have ample options for your journey.</p>
+                <a href="#"
+                    class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Get started
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white dark:bg-gray-900">
+        <div
+            class="gap-8 items-center px-4 mx-auto flex flex-col-reverse max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">2. Select</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Browse through a comprehensive list of buses and agencies, each with detailed schedules, amenities, and pricing information. With our intuitive interface, you can easily compare and contrast different options to select the one that best aligns with your travel plans and preferences.</p>
+                <a href="#"
+                    class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Get started
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+            <img class="w-full dark:hidden"
+                src="image/select.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="image/select.svg"
+                alt="dashboard image">
+        </div>
+    </section>
+    <section class="bg-white dark:bg-gray-900">
+        <div
+            class="gap-8 items-center px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden"
+                src="image/book.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="image/book.svg"
+                alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">3. Book</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Once you've found the perfect bus and agency for your trip, securely book your seat with confidence. Our seamless booking process ensures a hassle-free experience, allowing you to confirm your reservation with just a few clicks. Upon completion, you'll receive instant confirmation, providing you with peace of mind and assurance that your seat is secured for your upcoming journey.</p>
+                <a href="#"
+                    class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Get started
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="p-4 bg-gray-50 md:p-8 lg:p-10">
+        <div class="mx-auto max-w-screen-xl text-center">
+            <a href="home.html" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+                    <img src="image/logo.png" class="mr-3 h-6 sm:h-9" alt="Kuba Logo" />
+                    <span class="self-center text-xl font-semibold whitespace-nowrap ">Kuba</span>
+            </a>
+            <p class="my-6 text-gray-500 dark:text-gray-400">Start Your Journey Today with Bus Seat Reservations System!</p>
+            <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Premium</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Campaigns</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Affiliate Program</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">FAQs</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
+                </li>
+            </ul>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">Kuba™</a>. All Rights Reserved.</span>
+        </div>
+      </footer>
+
+
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
